@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<!--Login Page -->
+	
+	<NUser>//input[@name='USER']</NUser>
+	<Npwd>//input[@name='PASSWORD']</Npwd>
+	<NSubmit>//input[@src='../../FIVSearchWeb/images/btn_enter.jpg']</NSubmit>
+	<NUserWS>//input[@name='USER']</NUserWS>
+	<NpwdWS>//input[@name='PASSWORD']</NpwdWS>
+	<NSubmitWS>//input[@id='cmdEnter']</NSubmitWS>
+	
+	
+	
+	
+	<!--LOB Selection XPath -->
+	
+	<Annuity_Documents>//*[@id="td1"]</Annuity_Documents>
+	<Annuity_Met>//*[@id="td2"]</Annuity_Met>
+	<BOSS_BSR>//*[@id="td3"]</BOSS_BSR>
+	<BANK_Statement>//*[@id="td4"]</BANK_Statement>
+	<Broker_Dealer_Documents>//*[@id="td5"]</Broker_Dealer_Documents>
+	<Chase_Check>//*[@id="td6"]</Chase_Check>
+	<Dental_EOB>//*[@id="td7"]</Dental_EOB>
+	<EGA_Documents>//*[@id="td8"]</EGA_Documents>
+	<GVUL_Documents>//*[@id="td9"]</GVUL_Documents>
+	<Group_Life>//*[@id="td10"]</Group_Life>
+	<ICMS_Documents>//*[@id="td11"]</ICMS_Documents>
+	<IDI>//*[@id="td12"]</IDI>
+	<Life_Admin_Documents>//*[@id="td13"]</Life_Admin_Documents>
+	<Life_Admin_Documents_QA_Role>//*[@id="td14"]</Life_Admin_Documents_QA_Role>
+	<Properties_and_Casulality_Documents>//*[@id="td15"]</Properties_and_Casulality_Documents>
+	<SOH>//*[@id="td16"]</SOH>
+	<VB_Prepop>//*[@id="td17"]</VB_Prepop>
+	<Worksite_STD>//*[@id="td18"]</Worksite_STD>
+	<Ellustration_Documents>//*[@id="td19"]</Ellustration_Documents>
+
+	<!--Annuity_Documents XPath -->
+	<Annuity_Documents_DocRepo>//select[@id='docRepository']</Annuity_Documents_DocRepo>
+	<Annuity_Documents_DocGroup>//select[@id='docGroup']</Annuity_Documents_DocGroup>
+	<Annuity_Documents_StartDate>//input[@id='fromDate']</Annuity_Documents_StartDate>
+	<Annuity_Documents_EndDate>//input[@id='toDate']</Annuity_Documents_EndDate>
+	<Annuity_Documents_DocType>//select[@id='doctype']</Annuity_Documents_DocType>
+	
+	<Annuity_Documents_Search>//input[@id='search']</Annuity_Documents_Search>
+	<Annuity_Documents_Result_Waiter>//span[contains(text(),'Select from Search')]</Annuity_Documents_Result_Waiter>
+	<Annuity_Documents_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</Annuity_Documents_ImgClick>
+	
+	
+	<!--Annuity_Met XPath -->
+	<Annuity_Met_Contract_ID>//input[@id='CONTACTID']</Annuity_Met_Contract_ID>
+	<Annuity_Met_Search>//input[@id='search']</Annuity_Met_Search>
+	<Annuity_Met_Result_Waiter>//span[contains(text(),'Select from Search')]</Annuity_Met_Result_Waiter>
+	<Annuity_Met_ImgClick>//*[@id="demoTable"]/tbody/tr[2]/td[1]/a</Annuity_Met_ImgClick>
+	
+	<!--BOSS_BSR XPath -->
+	
+	<BOSS_BSR_CARRIERNM>//select[@id='CARRIERNM']</BOSS_BSR_CARRIERNM>
+	<BOSS_BSR_Polno>//input[@id='POLICYNUM']</BOSS_BSR_Polno>
+	
+	<BOSS_BSR_Search>//input[@id='search']</BOSS_BSR_Search>
+	<BOSS_BSR_Result_Waiter>//span[contains(text(),'Select from Search')]</BOSS_BSR_Result_Waiter>
+	<BOSS_BSR_ImgClick>//*[@id="demoTable"]/tbody/tr[2]/td[1]/a</BOSS_BSR_ImgClick>
+	
+	<!--BANK_Statement XPath -->
+	<BANK_Statement_AccNo>//select[@id='accountNumber']</BANK_Statement_AccNo>
+	
+	<BANK_Statement_StartDate>//input[@id='PROCESSFROM']</BANK_Statement_StartDate>
+	<BANK_Statement_EndDate>//input[@id='PROCESSTO']</BANK_Statement_EndDate>
+	
+	
+	<BANK_Statement_Search>//input[@id='search']</BANK_Statement_Search>
+	<BANK_Statement_Result_Waiter>//span[contains(text(),'Select from Search')]</BANK_Statement_Result_Waiter>
+	<BANK_Statement_ImgClick>//*[@id="demoTable"]/tbody/tr[2]/td[1]/a</BANK_Statement_ImgClick>
+	
+	
+	
+	<!--Broker_Dealer_Documetns XPath -->
+	
+	<Broker_Dealer_Documents_DocRepo>//select[@id='docRepository']</Broker_Dealer_Documents_DocRepo>
+	<Broker_Dealer_Documents_DocGroup>//select[@id='docGroup']</Broker_Dealer_Documents_DocGroup>
+	<Broker_Dealer_Documents_StartDate>//input[@id='fromDate']</Broker_Dealer_Documents_StartDate>
+	<Broker_Dealer_Documents_EndDate>//input[@id='toDate']</Broker_Dealer_Documents_EndDate>
+	
+	
+	<Broker_Dealer_Documents_Search>//input[@id='search']</Broker_Dealer_Documents_Search>
+	<Broker_Dealer_Documents_Result_Waiter>//span[contains(text(),'Select from Search')]</Broker_Dealer_Documents_Result_Waiter>
+	<Broker_Dealer_Documents_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</Broker_Dealer_Documents_ImgClick>
+	
+	
+	<!--Chase_Check XPath -->
+	
+	<Chase_Check_BANKName>//select[@id='cboBankName']</Chase_Check_BANKName>
+	<Chase_Check_AccNo>//select[@id='cboAccNum']</Chase_Check_AccNo>
+	<Chase_Check_POSTDateFrom>//input[@id='PROCESSFROM']</Chase_Check_POSTDateFrom>
+	<Chase_Check_POSTDateTo>//input[@id='PROCESSTO']</Chase_Check_POSTDateTo>
+	
+	<Chase_Check_Search>//input[@id='search']</Chase_Check_Search>
+	<Chase_Check_Result_Waiter>//span[contains(text(),'Select from Search')]</Chase_Check_Result_Waiter>
+	<Chase_Check_ImgClick>//*[@id="demoTable"]/tbody/tr[2]/td[1]/a</Chase_Check_ImgClick>
+
+	<!--Dental_EOB XPath -->
+	
+	<Dental_EOB_StartDate>//input[@id='insuredFromDate']</Dental_EOB_StartDate>
+	<Dental_EOB_EndDate>//input[@id='insuredToDate']</Dental_EOB_EndDate>
+	
+	
+	<Dental_EOB_Search>//input[@id='search']</Dental_EOB_Search>
+	<Dental_EOB_Result_Waiter>//span[contains(text(),'Select from Search')]</Dental_EOB_Result_Waiter>
+	<Dental_EOB_ImgClick>//*[@id="demoTable"]/tbody/tr[2]/td[2]/a</Dental_EOB_ImgClick>
+	
+	
+	<!--EGA_Documents XPath -->
+	<EGA_Documents_DocRepo>//select[@id='docRepository']</EGA_Documents_DocRepo>
+	<EGA_Documents_DocGroup>//select[@id='docGroup']</EGA_Documents_DocGroup>
+	<EGA_Documents_StartDate>//input[@id='fromDate']</EGA_Documents_StartDate>
+	<EGA_Documents_EndDate>//input[@id='toDate']</EGA_Documents_EndDate>
+	<EGA_Documents_DocType>//select[@id='doctype']</EGA_Documents_DocType>
+	
+	<EGA_Documents_Search>//input[@id='search']</EGA_Documents_Search>
+	<EGA_Documents_Result_Waiter>//span[contains(text(),'Select from Search')]</EGA_Documents_Result_Waiter>
+	<EGA_Documents_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</EGA_Documents_ImgClick>
+	<EGA_Documents_ForNextWInTitlePick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[10]</EGA_Documents_ForNextWInTitlePick>
+	
+	
+	<!--GVUL_Documetns XPath -->
+	<GVUL_Documents_DocRepo>//select[@id='docRepository']</GVUL_Documents_DocRepo>
+	<GVUL_Documents_DocGroup>//select[@id='docGroup']</GVUL_Documents_DocGroup>
+	<GVUL_Documents_StartDate>//input[@id='fromDate']</GVUL_Documents_StartDate>
+	<GVUL_Documents_EndDate>//input[@id='toDate']</GVUL_Documents_EndDate>
+	<GVUL_Documents_DocType>//select[@id='doctype']</GVUL_Documents_DocType>
+	
+	<GVUL_Documents_Search>//input[@id='search']</GVUL_Documents_Search>
+	<GVUL_Documents_Result_Waiter>//span[contains(text(),'Select from Search')]</GVUL_Documents_Result_Waiter>
+	<GVUL_Documents_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</GVUL_Documents_ImgClick>
+	
+	
+	
+	<!--Group_Life XPath -->
+	<Group_Life_DocRepo>//select[@id='docRepository']</Group_Life_DocRepo>
+	<Group_Life_DocGroup>//select[@id='docGroup']</Group_Life_DocGroup>
+	<Group_Life_StartDate>//input[@id='dateFrom']</Group_Life_StartDate>
+	<Group_Life_EndDate>//input[@id='dateTo']</Group_Life_EndDate>
+	<Group_Life_DocType>//select[@id='docType']</Group_Life_DocType>
+	
+	<Group_Life_Search>//input[@id='search']</Group_Life_Search>
+	<Group_Life_Result_Waiter>//span[contains(text(),'Select from Search')]</Group_Life_Result_Waiter>
+	<Group_Life_ImgClick>//*[@id="demoTable"]/tbody/tr[2]/td[1]/a</Group_Life_ImgClick>
+	
+	
+	<!--ICMS_Documents XPath -->
+	<ICMS_Documents_Search>//input[@id='search']</ICMS_Documents_Search>
+	<ICMS_Documents_Result_Waiter>//span[contains(text(),'Select from Search')]</ICMS_Documents_Result_Waiter>
+	<ICMS_Documents_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[5]/td[1]/a</ICMS_Documents_ImgClick>
+	
+	<!--IDI XPath -->
+	<IDI_DocGroup>//select[@id='docGroup']</IDI_DocGroup>
+	<IDI_StartDate>//input[@id='fromDate']</IDI_StartDate>
+	<IDI_EndDate>//input[@id='toDate']</IDI_EndDate>
+	<IDI_Search>//input[@id='search']</IDI_Search>
+	<IDI_Result_Waiter>//span[contains(text(),'Select from Search')]</IDI_Result_Waiter>
+	<IDI_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</IDI_ImgClick>
+	
+	<!--Life_Admin_Documets XPath -->
+	<Life_Admin_Documents_DocRepo>//select[@id='docRepository']</Life_Admin_Documents_DocRepo>
+	<Life_Admin_Documents_Policy>//input[@id='policyNumber']</Life_Admin_Documents_Policy>
+	<Life_Admin_Documents_Search>//input[@id='search']</Life_Admin_Documents_Search>
+	<Life_Admin_Documents_Result_Waiter>//span[contains(text(),'Select from Search')]</Life_Admin_Documents_Result_Waiter>
+	<Life_Admin_Documents_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</Life_Admin_Documents_ImgClick>
+	
+
+	<!--Life_Admin_Documets_-_QA_Role XPath -->
+	
+	<Life_Admin_Documents_QA_Role_DocRepo>//select[@id='docRepository']</Life_Admin_Documents_QA_Role_DocRepo>
+	<Life_Admin_Documents_QA_Role_Policy>//input[@id='policyNumber']</Life_Admin_Documents_QA_Role_Policy>
+	<Life_Admin_Documents_QA_Role_Search>//input[@id='search']</Life_Admin_Documents_QA_Role_Search>
+	<Life_Admin_Documents_QA_Role_Result_Waiter>//span[contains(text(),'Select from Search')]</Life_Admin_Documents_QA_Role_Result_Waiter>
+	<Life_Admin_Documents_QA_Role_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</Life_Admin_Documents_QA_Role_ImgClick>
+	
+	<!--Properties_and_Casulality_Documents XPath -->
+	<Properties_and_Casulality_Documents_DocRepo>//select[@id='docRepository']</Properties_and_Casulality_Documents_DocRepo>
+	<Properties_and_Casulality_Documents_Policy>//input[@id='policyNumber']</Properties_and_Casulality_Documents_Policy>
+	<Properties_and_Casulality_Documents_Search>//input[@id='search']</Properties_and_Casulality_Documents_Search>
+	<Properties_and_Casulality_Documents_Result_Waiter>//span[contains(text(),'Select from Search')]</Properties_and_Casulality_Documents_Result_Waiter>
+	<Properties_and_Casulality_Documents_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</Properties_and_Casulality_Documents_ImgClick>
+	
+	
+	<!--SOH XPath -->
+	
+	<SOH_EmpId>//input[@id='policyNumber']</SOH_EmpId>
+	<SOH_Search>//input[@id='search']</SOH_Search>
+	<SOH_Result_Waiter>//span[contains(text(),'Select from Prepop Document')]</SOH_Result_Waiter>
+	<SOH_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</SOH_ImgClick>
+	
+	
+	<!--VB_Prepop XPath -->
+	<VB_Prepop_EmpId>//input[@id='txt_EmpId']</VB_Prepop_EmpId>
+	<VB_Prepop_EmpLastName>//input[@id='txt_LastName']</VB_Prepop_EmpLastName>
+	<VB_Prepop_Search>//input[@id='search']</VB_Prepop_Search>
+	<VB_Prepop_Result_Waiter>//span[contains(text(),'Select from Prepop Document')]</VB_Prepop_Result_Waiter>
+	<VB_Prepop_ImgClick>//*[@id="the_image2"]</VB_Prepop_ImgClick>
+	
+	
+	
+	<!--WorkSite_STD XPath -->
+	
+	<WorkSite_STD_SSN>//input[@id='Ssn']</WorkSite_STD_SSN>
+	<WorkSite_STD_Search>//input[@id='search']</WorkSite_STD_Search>
+	<WorkSite_STD_Result_Waiter>//span[contains(text(),'Select from Search')]</WorkSite_STD_Result_Waiter>
+	<WorkSite_STD_ImgClick>//*[@id="demoTable"]/tbody/tr[2]/td[1]/a</WorkSite_STD_ImgClick>
+	<!--Ellustration_Documents XPath -->
+	
+	<Ellustration_Documents_DocRepo>//select[@id='docRepository']</Ellustration_Documents_DocRepo>
+	<Ellustration_Documents_DocGroup>//select[@id='docGroup']</Ellustration_Documents_DocGroup>
+
+	<Ellustration_Documents_DocType>//select[@id='doctype']</Ellustration_Documents_DocType>
+	<Ellustration_Documents_Policy>//input[@id='policyNumber']</Ellustration_Documents_Policy>
+	<Ellustration_Documents_Search>//input[@id='search']</Ellustration_Documents_Search>
+	<Ellustration_Documents_Result_Waiter>//span[contains(text(),'Select from Search')]</Ellustration_Documents_Result_Waiter>
+	<Ellustration_Documents_ImgClick>//html/body/form/table/tbody/tr[3]/td/table/tbody/tr[4]/td[1]/a</Ellustration_Documents_ImgClick>
+	
+	<!--CPAM Webservice Xpath -->
+	
+	<CPAM_SourceApplicID>//input[@name='SourceApplicID']</CPAM_SourceApplicID>
+	<CPAM_ItemName>//input[@name='ItemName']</CPAM_ItemName>
+	<CPAM_Folder>//input[@name='Folder']</CPAM_Folder>
+	<CPAM_btnSubmit>//input[@name='btnSubmit']</CPAM_btnSubmit>
+	
+	
+	
+	<!--ACE Out Bound Xpath -->
+	<ACE_SourcePortalID>//input[@name='SourcePortalID']</ACE_SourcePortalID>
+	
+	<ACE_SourceApplicID>//input[@name='SourceApplicID']</ACE_SourceApplicID>
+	<ACE_RepositoryID>//input[@name='RepositoryID']</ACE_RepositoryID>
+	<ACE_UserID>//input[@name='UserID']</ACE_UserID>
+	<ACE_ItemName>//input[@name='ItemName']</ACE_ItemName>
+	<ACE_Folder>//input[@name='Folder']</ACE_Folder>
+	<ACE_btnSubmit>//input[@name='submit']</ACE_btnSubmit>
+	
+	
+	
+	
+	
+	
+	
+</Root>

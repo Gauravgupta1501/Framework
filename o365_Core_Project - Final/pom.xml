@@ -1,0 +1,124 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.metlife.qas</groupId>
+    <artifactId>EUCAutomation</artifactId>
+    <version>1.2</version>
+    <dependencies>
+
+
+        <!-- poi-ooxml-schemas-3.14.jar: -->
+        <dependency>
+            <groupId>com.metlife.qas</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>3.14</version>
+        </dependency>
+
+        <!-- poi-ooxml-3.14.jar: -->
+        <dependency>
+            <groupId>com.metlife.qas</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.14</version>
+        </dependency>
+
+        <!-- poi-3.14.jar: -->
+        <dependency>
+            <groupId>com.metlife.qas</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.14</version>
+        </dependency>
+
+        <!-- selenium-server-3.7.1.jar: -->
+        <dependency>
+            <groupId>com.metlife.qas</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>3.7.1</version>
+        </dependency>
+
+        <!-- Dom4j-1.6.jar: -->
+        <dependency>
+            <groupId>com.metlife.qas</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6</version>
+        </dependency>
+
+        <!-- testng-6.10.jar: -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.10</version>
+        </dependency>
+
+        <!-- log-4j.jar: -->
+        <dependency>
+            <groupId>com.metlife.CIF</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <!-- ExtentReports-2.41.2.jar: -->
+        <dependency>
+            <groupId>com.metlife.qas</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>2.41.2</version>
+        </dependency>
+
+        <!-- xmlbeans-2.6.0.jar -->
+        <dependency>
+            <groupId>com.metlife.qas</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+
+        <!-- xml-apis-1.4.01.jar: -->
+        <dependency>
+            <groupId>com.metlife.qas</groupId>
+            <artifactId>xml-apis</artifactId>
+            <version>1.4.01</version>
+        </dependency>
+
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <!-- Following plugin executes the testng tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.14.1</version>
+                <configuration>
+                    <!-- Suite testng xml file to consider for test execution -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testngSuite.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+            <!-- Compiler plugin configures the java version to be usedfor compiling
+                the code -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+
+
+
+        </plugins>
+    </build>
+
+
+    <properties>
+        <jdk.version>1.8</jdk.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+
+
+</project>
+
